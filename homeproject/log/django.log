@@ -48,3 +48,12 @@ INFO 2024-05-11 20:01:17,896 autoreload 2537 8597502656/Users/surnaya.m/Desktop/
 INFO 2024-05-11 20:01:18,198 autoreload 2571 8597502656Watching for file changes with StatReloader
 INFO 2024-05-11 20:03:03,988 autoreload 2571 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
 INFO 2024-05-11 20:03:04,311 autoreload 2686 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 20:43:31,888 autoreload 3218 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 20:43:33,791 views 3218 6192246784Home page accessed
+INFO 2024-05-11 20:43:33,794 basehttp 3218 6192246784"GET / HTTP/1.1" 200 149
+INFO 2024-05-11 20:43:44,083 views 3218 6192246784Home page accessed
+INFO 2024-05-11 20:43:44,085 basehttp 3218 6192246784"GET / HTTP/1.1" 200 149
+WARNING 2024-05-11 20:43:50,477 log 3218 6192246784Not Found: /myshop
+WARNING 2024-05-11 20:43:50,477 basehttp 3218 6192246784"GET /myshop HTTP/1.1" 404 2532
+INFO 2024-05-11 20:43:57,074 basehttp 3218 6192246784"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-11 20:43:57,611 basehttp 3218 6192246784"GET /shop/ HTTP/1.1" 200 126
