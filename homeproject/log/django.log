@@ -36,3 +36,15 @@ INFO 2024-05-11 19:53:29,944 basehttp 2339 6125154304"GET /shop HTTP/1.1" 301 0
 INFO 2024-05-11 19:53:29,950 basehttp 2339 6125154304"GET /shop/ HTTP/1.1" 200 108
 INFO 2024-05-11 19:54:33,602 autoreload 2339 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
 INFO 2024-05-11 19:54:33,876 autoreload 2362 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 19:57:09,474 autoreload 2362 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-11 19:57:09,785 autoreload 2435 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 19:57:47,454 autoreload 2435 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-11 19:57:47,753 autoreload 2445 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 19:58:35,575 autoreload 2445 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-11 19:58:35,871 autoreload 2461 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 20:00:20,666 autoreload 2461 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-11 20:00:20,975 autoreload 2537 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 20:01:17,896 autoreload 2537 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-11 20:01:18,198 autoreload 2571 8597502656Watching for file changes with StatReloader
+INFO 2024-05-11 20:03:03,988 autoreload 2571 8597502656/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-11 20:03:04,311 autoreload 2686 8597502656Watching for file changes with StatReloader
