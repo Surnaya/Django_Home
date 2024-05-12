@@ -9,6 +9,9 @@ class Client(models.Model):
     address = models.CharField(max_length=200)
     registration_date = models.DateTimeField(default=timezone.now)
 
+    def __str__(self):
+        return f'Client name: {self.name}, email: {self.email}, phone: {self.phone_number}, address: {self.address}, registration_date: {self.registration_date}'
+
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
