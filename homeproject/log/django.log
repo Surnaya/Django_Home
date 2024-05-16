@@ -57,3 +57,220 @@ WARNING 2024-05-11 20:43:50,477 log 3218 6192246784Not Found: /myshop
 WARNING 2024-05-11 20:43:50,477 basehttp 3218 6192246784"GET /myshop HTTP/1.1" 404 2532
 INFO 2024-05-11 20:43:57,074 basehttp 3218 6192246784"GET /shop/ HTTP/1.1" 200 126
 INFO 2024-05-11 20:43:57,611 basehttp 3218 6192246784"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 08:33:43,003 autoreload 1502 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:33:44,964 views 1502 6162362368Home page accessed
+INFO 2024-05-16 08:33:44,965 basehttp 1502 6162362368"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 08:34:02,167 views 1502 6162362368Home page accessed
+INFO 2024-05-16 08:34:02,168 basehttp 1502 6162362368"GET / HTTP/1.1" 200 149
+WARNING 2024-05-16 08:34:03,681 log 1502 6162362368Not Found: /coin/
+WARNING 2024-05-16 08:34:03,681 basehttp 1502 6162362368"GET /coin/ HTTP/1.1" 404 2529
+WARNING 2024-05-16 08:34:07,511 log 1502 6162362368Not Found: /client/1
+WARNING 2024-05-16 08:34:07,512 basehttp 1502 6162362368"GET /client/1 HTTP/1.1" 404 2538
+INFO 2024-05-16 08:34:28,818 basehttp 1502 6162362368"GET /shop/client/1 HTTP/1.1" 301 0
+INFO 2024-05-16 08:34:28,835 basehttp 1502 6162362368"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 08:35:04,323 basehttp 1502 6162362368"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 08:35:07,218 basehttp 1502 6162362368"GET /shop/client/3 HTTP/1.1" 301 0
+INFO 2024-05-16 08:35:07,232 basehttp 1502 6162362368"GET /shop/client/3/ HTTP/1.1" 200 40
+INFO 2024-05-16 08:35:11,612 basehttp 1502 6162362368"GET /shop/client/3/ HTTP/1.1" 200 40
+INFO 2024-05-16 08:35:13,258 basehttp 1502 6162362368"GET /shop/client/4 HTTP/1.1" 301 0
+INFO 2024-05-16 08:35:13,275 basehttp 1502 6162362368"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 08:37:34,824 autoreload 1502 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:37:35,117 autoreload 1552 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:39:43,337 autoreload 1552 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:39:43,645 autoreload 1569 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:41:14,233 autoreload 1569 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:41:14,504 autoreload 1587 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:41:49,144 autoreload 1587 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-16 08:41:49,421 autoreload 1601 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:41:49,953 basehttp 1601 6131265536"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 08:41:53,467 basehttp 1601 6131265536"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 08:41:55,104 basehttp 1601 6131265536"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 08:42:07,853 basehttp 1601 6131265536"GET /shop/change/1 HTTP/1.1" 301 0
+INFO 2024-05-16 08:42:07,862 basehttp 1601 6131265536"GET /shop/change/1/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:20,734 basehttp 1601 6131265536"GET /shop/change/1/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:21,890 basehttp 1601 6131265536"GET /shop/change/2 HTTP/1.1" 301 0
+INFO 2024-05-16 08:42:21,900 basehttp 1601 6131265536"GET /shop/change/2/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:25,996 basehttp 1601 6131265536"GET /shop/change/2/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:26,916 basehttp 1601 6131265536"GET /shop/change/3 HTTP/1.1" 301 0
+INFO 2024-05-16 08:42:26,925 basehttp 1601 6131265536"GET /shop/change/3/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:31,363 basehttp 1601 6131265536"GET /shop/change/3/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:34,537 basehttp 1601 6131265536"GET /shop/change/4 HTTP/1.1" 301 0
+INFO 2024-05-16 08:42:34,547 basehttp 1601 6131265536"GET /shop/change/4/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:38,873 basehttp 1601 6131265536"GET /shop/change/4/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:41,108 basehttp 1601 6131265536"GET /shop/change/4/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:42:42,506 basehttp 1601 6131265536"GET /shop/change/5 HTTP/1.1" 301 0
+INFO 2024-05-16 08:42:42,516 basehttp 1601 6131265536"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:44:16,306 autoreload 1601 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:44:16,596 autoreload 1616 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:44:19,879 basehttp 1616 6136147968"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:44:20,932 basehttp 1616 6136147968"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:44:21,867 basehttp 1616 6136147968"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:44:23,567 basehttp 1616 6136147968"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:44:58,396 autoreload 1616 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:44:58,679 autoreload 1625 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:45:49,719 autoreload 1625 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:45:50,008 autoreload 1635 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:45:51,728 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:45:53,585 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:45:54,369 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:45:54,654 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:45:54,901 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:45:55,172 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:45:55,455 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:46:18,803 basehttp 1635 6137671680"GET /shop/change/5/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:46:24,297 basehttp 1635 6137671680"GET /shop/change/3/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:49:01,961 autoreload 1635 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-16 08:49:02,268 autoreload 1658 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:49:03,779 basehttp 1658 6196588544"GET /shop/change/3/ HTTP/1.1" 200 86
+INFO 2024-05-16 08:49:57,251 autoreload 1658 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:49:57,521 autoreload 1674 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:50:02,703 autoreload 1674 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:50:02,921 autoreload 1679 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:50:04,189 basehttp 1679 6171521024"GET /shop/change/3/ HTTP/1.1" 200 174
+INFO 2024-05-16 08:50:21,379 autoreload 1679 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:50:21,668 autoreload 1695 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:50:46,014 basehttp 1695 6129627136"GET /shop/change/3/ HTTP/1.1" 200 86
+INFO 2024-05-16 08:52:24,992 autoreload 1695 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 08:52:25,279 autoreload 1711 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:52:26,664 basehttp 1711 6162477056"GET /shop/change/3/ HTTP/1.1" 200 61
+INFO 2024-05-16 08:59:05,825 autoreload 1755 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 08:59:07,824 views 1755 6170144768Home page accessed
+INFO 2024-05-16 08:59:07,824 basehttp 1755 6170144768"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 08:59:10,834 views 1755 6170144768Home page accessed
+INFO 2024-05-16 08:59:10,834 basehttp 1755 6170144768"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 08:59:11,912 basehttp 1755 6170144768"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 08:59:17,654 basehttp 1755 6170144768"GET /shop/change/5/ HTTP/1.1" 200 61
+INFO 2024-05-16 08:59:18,054 basehttp 1755 6170144768"GET /shop/client/4/ HTTP/1.1" 200 600
+WARNING 2024-05-16 09:01:32,094 log 1755 6170144768Forbidden (CSRF cookie not set.): /shop/change/3/
+WARNING 2024-05-16 09:01:32,094 basehttp 1755 6170144768"POST /shop/change/3/ HTTP/1.1" 403 2870
+WARNING 2024-05-16 09:02:13,649 log 1755 6170144768Forbidden (CSRF cookie not set.): /shop/change/3/
+WARNING 2024-05-16 09:02:13,650 basehttp 1755 6170144768"POST /shop/change/3/ HTTP/1.1" 403 2870
+INFO 2024-05-16 09:02:26,482 basehttp 1755 6170144768"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 09:02:28,043 basehttp 1755 6170144768"GET /shop/client/5 HTTP/1.1" 301 0
+INFO 2024-05-16 09:02:28,057 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 09:02:48,664 basehttp 1755 6170144768"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 09:02:49,807 basehttp 1755 6170144768"GET /shop/client/3/ HTTP/1.1" 200 40
+ERROR 2024-05-16 09:03:15,478 log 1755 6186971136Internal Server Error: /shop/change/4
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/shop/change/4/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-05-16 09:03:15,480 basehttp 1755 6186971136"POST /shop/change/4 HTTP/1.1" 500 66103
+INFO 2024-05-16 09:03:32,296 basehttp 1755 6170144768"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 09:03:36,776 basehttp 1755 6170144768"GET /shop/client/4/ HTTP/1.1" 200 600
+INFO 2024-05-16 09:03:40,109 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+ERROR 2024-05-16 09:03:55,155 log 1755 6186971136Internal Server Error: /shop/change/5
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/shop/change/5/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-05-16 09:03:55,156 basehttp 1755 6186971136"POST /shop/change/5 HTTP/1.1" 500 66103
+INFO 2024-05-16 09:04:01,203 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 09:04:05,001 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 09:04:06,135 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:08:43,138 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:08:48,867 basehttp 1755 6170144768"GET /shop/change/3/ HTTP/1.1" 200 61
+INFO 2024-05-16 10:08:55,184 basehttp 1755 6170144768"GET /shop/change/5/ HTTP/1.1" 200 61
+INFO 2024-05-16 10:08:59,859 basehttp 1755 6170144768"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:15:45,299 autoreload 1982 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 10:15:55,001 views 1982 6196178944Home page accessed
+INFO 2024-05-16 10:15:55,001 basehttp 1982 6196178944"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 10:15:58,412 views 1982 6196178944Home page accessed
+INFO 2024-05-16 10:15:58,413 basehttp 1982 6196178944"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 10:16:08,922 basehttp 1982 6196178944"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 10:16:10,326 basehttp 1982 6196178944"GET /shop/change/4/ HTTP/1.1" 200 61
+INFO 2024-05-16 10:16:10,923 basehttp 1982 6196178944"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 10:16:14,613 basehttp 1982 6196178944"GET /shop/change/4/ HTTP/1.1" 200 61
+INFO 2024-05-16 10:16:16,109 basehttp 1982 6196178944"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 10:16:21,326 basehttp 1982 6196178944"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 10:16:22,294 basehttp 1982 6196178944"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:17:29,603 basehttp 1982 6196178944"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:17:30,771 basehttp 1982 6196178944"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:17:31,986 basehttp 1982 6196178944"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:17:35,169 basehttp 1982 6196178944"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:17:36,887 basehttp 1982 6196178944"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:20:07,893 autoreload 1982 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 10:20:08,226 autoreload 2040 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 10:20:10,651 basehttp 2040 6198177792"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:20:14,865 basehttp 2040 6198177792"GET /shop/client/1/ HTTP/1.1" 200 50
+ERROR 2024-05-16 10:20:29,281 log 2040 6198177792Internal Server Error: /shop/change/5/Tom
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: myshopapp_client.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 41, in change_client_name
+    client.save()
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: myshopapp_client.name
+ERROR 2024-05-16 10:20:29,289 basehttp 2040 6198177792"GET /shop/change/5/Tom HTTP/1.1" 500 147780
+INFO 2024-05-16 10:21:27,823 autoreload 2040 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-16 10:21:28,125 autoreload 2059 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 10:25:15,956 autoreload 2059 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 10:25:16,277 autoreload 2102 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 10:25:17,499 basehttp 2102 6189051904"GET /shop/client/5/ HTTP/1.1" 200 602
+INFO 2024-05-16 10:25:27,987 basehttp 2102 6189051904"GET /shop/delete/4 HTTP/1.1" 301 0
+INFO 2024-05-16 10:25:27,996 basehttp 2102 6189051904"GET /shop/delete/4/ HTTP/1.1" 200 161
+INFO 2024-05-16 10:26:02,223 autoreload 2102 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 10:26:02,527 autoreload 2121 8688188096Watching for file changes with StatReloader
+WARNING 2024-05-16 10:26:03,237 log 2121 6138228736Not Found: /shop/delete/4/
+WARNING 2024-05-16 10:26:03,238 basehttp 2121 6138228736"GET /shop/delete/4/ HTTP/1.1" 404 3386
+WARNING 2024-05-16 10:26:10,794 log 2121 6138228736Not Found: /shop/delete/4/
+WARNING 2024-05-16 10:26:10,795 basehttp 2121 6138228736"GET /shop/delete/4/ HTTP/1.1" 404 3386
+INFO 2024-05-16 10:26:12,209 basehttp 2121 6138228736"GET /shop/delete/5 HTTP/1.1" 301 0
+INFO 2024-05-16 10:26:12,232 basehttp 2121 6138228736"GET /shop/delete/5/ HTTP/1.1" 200 51
+WARNING 2024-05-16 10:26:19,204 log 2121 6138228736Not Found: /shop/delete/5/
+WARNING 2024-05-16 10:26:19,206 basehttp 2121 6138228736"GET /shop/delete/5/ HTTP/1.1" 404 3386
+INFO 2024-05-16 10:26:21,214 basehttp 2121 6138228736"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 10:26:24,700 basehttp 2121 6138228736"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 10:26:36,409 basehttp 2121 6138228736"GET /shop/client/1/ HTTP/1.1" 200 50
+INFO 2024-05-16 10:29:13,634 autoreload 2121 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 10:29:13,964 autoreload 2146 8688188096Watching for file changes with StatReloader
