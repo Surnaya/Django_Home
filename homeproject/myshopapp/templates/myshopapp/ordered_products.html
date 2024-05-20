@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered Products</title>
+</head>
+<body>
+    {% if error %}
+        <p>{{ error }}</p>
+    {% else %}
+        <h1>Ordered Products for {{ client.name }}</h1>
+
+        <h2>Last 7 days (Week)</h2>
+        <ul>
+            {% for order in orders_week %}
+                {% for product in order.products.all %}
+                    <li>{{ product.name }} - {{ order.order_date|date:"Y-m-d H:i" }}</li>
+                {% endfor %}
+            {% empty %}
+                <li>No products ordered in the last 7 days.</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Last 30 days (Month)</h2>
+        <ul>
+            {% for order in orders_month %}
+                {% for product in order.products.all %}
+                    <li>{{ product.name }} - {{ order.order_date|date:"Y-m-d H:i" }}</li>
+                {% endfor %}
+            {% empty %}
+                <li>No products ordered in the last 30 days.</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Last 365 days (Year)</h2>
+        <ul>
+            {% for order in orders_year %}
+                {% for product in order.products.all %}
+                    <li>{{ product.name }} - {{ order.order_date|date:"Y-m-d H:i" }}</li>
+                {% endfor %}
+            {% empty %}
+                <li>No products ordered in the last 365 days.</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

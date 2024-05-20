@@ -274,3 +274,269 @@ INFO 2024-05-16 10:26:24,700 basehttp 2121 6138228736"GET /shop/client/1/ HTTP/1
 INFO 2024-05-16 10:26:36,409 basehttp 2121 6138228736"GET /shop/client/1/ HTTP/1.1" 200 50
 INFO 2024-05-16 10:29:13,634 autoreload 2121 8688188096/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
 INFO 2024-05-16 10:29:13,964 autoreload 2146 8688188096Watching for file changes with StatReloader
+INFO 2024-05-16 15:01:27,400 autoreload 2121 8672950976Watching for file changes with StatReloader
+INFO 2024-05-16 15:01:28,948 views 2121 6192508928Home page accessed
+INFO 2024-05-16 15:01:28,949 basehttp 2121 6192508928"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 15:01:33,264 views 2121 6192508928Home page accessed
+INFO 2024-05-16 15:01:33,266 basehttp 2121 6192508928"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 15:01:39,668 views 2121 6192508928Home page accessed
+INFO 2024-05-16 15:01:39,669 basehttp 2121 6192508928"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 15:01:40,860 basehttp 2121 6192508928"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 15:01:44,892 basehttp 2121 6192508928"GET /shop/ HTTP/1.1" 200 126
+WARNING 2024-05-16 15:01:45,428 log 2121 6192508928Not Found: /shop/client/1/
+WARNING 2024-05-16 15:01:45,428 basehttp 2121 6192508928"GET /shop/client/1/ HTTP/1.1" 404 2989
+WARNING 2024-05-16 15:01:57,729 log 2121 6192508928Not Found: /shop/client/5/
+WARNING 2024-05-16 15:01:57,730 basehttp 2121 6192508928"GET /shop/client/5/ HTTP/1.1" 404 2989
+WARNING 2024-05-16 15:01:58,589 log 2121 6192508928Not Found: /shop/client/4/
+WARNING 2024-05-16 15:01:58,590 basehttp 2121 6192508928"GET /shop/client/4/ HTTP/1.1" 404 2989
+WARNING 2024-05-16 15:02:04,917 log 2121 6192508928Not Found: /shop/client/5/
+WARNING 2024-05-16 15:02:04,918 basehttp 2121 6192508928"GET /shop/client/5/ HTTP/1.1" 404 2989
+INFO 2024-05-16 15:02:06,341 basehttp 2121 6192508928"GET /shop/client/7 HTTP/1.1" 301 0
+ERROR 2024-05-16 15:02:06,397 log 2121 6192508928Internal Server Error: /shop/client/7/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 36, in client_orders_view
+    return render(request, 'client_orders.html', {'client': client, 'orders': orders})
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: client_orders.html
+ERROR 2024-05-16 15:02:06,400 basehttp 2121 6192508928"GET /shop/client/7/ HTTP/1.1" 500 79265
+INFO 2024-05-16 16:27:20,491 autoreload 2121 8672950976/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-16 16:27:20,828 autoreload 2305 8672950976Watching for file changes with StatReloader
+INFO 2024-05-16 16:27:22,733 basehttp 2305 6159446016"GET /shop/client/7/ HTTP/1.1" 200 2360
+INFO 2024-05-16 16:35:55,825 views 2305 6159446016Home page accessed
+INFO 2024-05-16 16:35:55,827 basehttp 2305 6159446016"GET / HTTP/1.1" 200 149
+WARNING 2024-05-16 16:36:01,182 log 2305 6159446016Not Found: /clients/
+WARNING 2024-05-16 16:36:01,182 basehttp 2305 6159446016"GET /clients/ HTTP/1.1" 404 2538
+INFO 2024-05-16 16:49:08,878 autoreload 2665 8672950976Watching for file changes with StatReloader
+INFO 2024-05-16 16:49:10,325 views 2665 6195245056Home page accessed
+INFO 2024-05-16 16:49:10,328 basehttp 2665 6195245056"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 16:49:18,829 basehttp 2665 6195245056"GET /shop/client/7/ HTTP/1.1" 200 2360
+INFO 2024-05-16 16:49:26,612 basehttp 2665 6195245056"GET /shop/client/7/ HTTP/1.1" 200 2360
+INFO 2024-05-16 16:49:29,268 basehttp 2665 6195245056"GET /shop/client/15 HTTP/1.1" 301 0
+INFO 2024-05-16 16:49:29,289 basehttp 2665 6195245056"GET /shop/client/15/ HTTP/1.1" 200 2358
+INFO 2024-05-16 16:49:37,708 basehttp 2665 6195245056"GET /shop/client/15/ HTTP/1.1" 200 2358
+INFO 2024-05-16 16:49:39,860 basehttp 2665 6195245056"GET /shop/client/19 HTTP/1.1" 301 0
+INFO 2024-05-16 16:49:39,875 basehttp 2665 6195245056"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 16:49:46,190 basehttp 2665 6195245056"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 16:49:49,515 basehttp 2665 6195245056"GET /shop/client/21 HTTP/1.1" 301 0
+INFO 2024-05-16 16:49:49,530 basehttp 2665 6195245056"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:01:18,500 autoreload 3050 8672950976Watching for file changes with StatReloader
+INFO 2024-05-16 17:01:19,802 views 3050 6122434560Home page accessed
+INFO 2024-05-16 17:01:19,802 basehttp 3050 6122434560"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 17:01:21,554 views 3050 6122434560Home page accessed
+INFO 2024-05-16 17:01:21,556 basehttp 3050 6122434560"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 17:01:24,305 basehttp 3050 6122434560"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:01:26,548 basehttp 3050 6122434560"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:01:33,692 views 3050 6122434560Home page accessed
+INFO 2024-05-16 17:01:33,692 basehttp 3050 6122434560"GET / HTTP/1.1" 200 149
+WARNING 2024-05-16 17:01:35,590 log 3050 6122434560Not Found: /coin/
+WARNING 2024-05-16 17:01:35,590 basehttp 3050 6122434560"GET /coin/ HTTP/1.1" 404 2529
+INFO 2024-05-16 17:01:43,098 views 3050 6122434560Home page accessed
+INFO 2024-05-16 17:01:43,098 basehttp 3050 6122434560"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 17:01:44,131 basehttp 3050 6122434560"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 17:01:49,253 basehttp 3050 6122434560"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:03:24,458 basehttp 3050 6122434560"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:03:26,725 basehttp 3050 6122434560"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:03:35,711 basehttp 3050 6122434560"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:03:36,779 basehttp 3050 6122434560"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:03:45,860 basehttp 3050 6122434560"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:03:46,504 basehttp 3050 6122434560"GET /shop/client/2 HTTP/1.1" 301 0
+WARNING 2024-05-16 17:03:46,526 log 3050 6122434560Not Found: /shop/client/2/
+WARNING 2024-05-16 17:03:46,527 basehttp 3050 6122434560"GET /shop/client/2/ HTTP/1.1" 404 2989
+INFO 2024-05-16 17:05:16,249 basehttp 3050 6122434560"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:05:16,495 basehttp 3050 6122434560"GET /shop/client/3/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:07:01,329 autoreload 3127 8672950976Watching for file changes with StatReloader
+INFO 2024-05-16 17:07:02,633 views 3127 6133542912Home page accessed
+INFO 2024-05-16 17:07:02,634 basehttp 3127 6133542912"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 17:07:15,631 views 3127 6133542912Home page accessed
+INFO 2024-05-16 17:07:15,633 basehttp 3127 6133542912"GET / HTTP/1.1" 200 149
+INFO 2024-05-16 17:07:16,092 basehttp 3127 6133542912"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-16 17:07:20,947 basehttp 3127 6133542912"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:07:25,980 basehttp 3127 6133542912"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:07:27,315 basehttp 3127 6133542912"GET /shop/client/21/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:07:30,030 basehttp 3127 6133542912"GET /shop/client/27 HTTP/1.1" 301 0
+INFO 2024-05-16 17:07:30,042 basehttp 3127 6133542912"GET /shop/client/27/ HTTP/1.1" 200 1382
+INFO 2024-05-16 17:07:38,836 basehttp 3127 6133542912"GET /shop/client/27/ HTTP/1.1" 200 1382
+INFO 2024-05-16 17:07:40,065 basehttp 3127 6133542912"GET /shop/client/28 HTTP/1.1" 301 0
+INFO 2024-05-16 17:07:40,081 basehttp 3127 6133542912"GET /shop/client/28/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:09:10,234 basehttp 3127 6133542912"GET /shop/client/28/ HTTP/1.1" 200 1381
+INFO 2024-05-16 17:09:10,646 basehttp 3127 6133542912"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-16 17:09:12,730 basehttp 3127 6133542912"GET /shop/client/18 HTTP/1.1" 301 0
+INFO 2024-05-16 17:09:12,751 basehttp 3127 6133542912"GET /shop/client/18/ HTTP/1.1" 200 2361
+INFO 2024-05-20 04:34:15,244 autoreload 1176 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:34:21,034 views 1176 6175895552Home page accessed
+INFO 2024-05-20 04:34:21,034 basehttp 1176 6175895552"GET / HTTP/1.1" 200 149
+WARNING 2024-05-20 04:34:21,245 log 1176 6175895552Not Found: /favicon.ico
+WARNING 2024-05-20 04:34:21,245 basehttp 1176 6175895552"GET /favicon.ico HTTP/1.1" 404 2547
+WARNING 2024-05-20 04:34:21,605 log 1176 6192721920Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-05-20 04:34:21,605 basehttp 1176 6192721920"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2610
+WARNING 2024-05-20 04:34:21,610 log 1176 6192721920Not Found: /apple-touch-icon.png
+WARNING 2024-05-20 04:34:21,610 basehttp 1176 6192721920"GET /apple-touch-icon.png HTTP/1.1" 404 2574
+INFO 2024-05-20 04:34:24,458 views 1176 6175895552Home page accessed
+INFO 2024-05-20 04:34:24,459 basehttp 1176 6175895552"GET / HTTP/1.1" 200 149
+INFO 2024-05-20 04:34:25,009 basehttp 1176 6175895552"GET /shop/ HTTP/1.1" 200 126
+WARNING 2024-05-20 04:34:28,344 log 1176 6175895552Not Found: /shop/client/1/
+WARNING 2024-05-20 04:34:28,344 basehttp 1176 6175895552"GET /shop/client/1/ HTTP/1.1" 404 2989
+INFO 2024-05-20 04:34:38,775 basehttp 1176 6175895552"GET /shop/client/19/ HTTP/1.1" 200 750
+WARNING 2024-05-20 04:34:40,757 log 1176 6175895552Not Found: /shop/client/4/
+WARNING 2024-05-20 04:34:40,758 basehttp 1176 6175895552"GET /shop/client/4/ HTTP/1.1" 404 2989
+INFO 2024-05-20 04:34:48,484 basehttp 1176 6175895552"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-20 04:34:51,931 basehttp 1176 6175895552"GET /shop/client/7/ HTTP/1.1" 200 2360
+INFO 2024-05-20 04:40:09,892 autoreload 1176 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-20 04:40:10,189 autoreload 1397 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:40:10,962 basehttp 1397 6202535936"GET /shop/client/7/ HTTP/1.1" 200 2360
+INFO 2024-05-20 04:40:12,372 basehttp 1397 6202535936"GET /shop/client/7/ HTTP/1.1" 200 2360
+INFO 2024-05-20 04:40:15,159 basehttp 1397 6202535936"GET /shop/client/19/ HTTP/1.1" 200 750
+INFO 2024-05-20 04:40:17,999 basehttp 1397 6202535936"GET /shop/client/1 HTTP/1.1" 301 0
+INFO 2024-05-20 04:40:18,018 basehttp 1397 6202535936"GET /shop/client/1/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:25,493 basehttp 1397 6202535936"GET /shop/client/1/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:26,269 basehttp 1397 6202535936"GET /shop/client/28/ HTTP/1.1" 200 1381
+INFO 2024-05-20 04:40:30,707 basehttp 1397 6202535936"GET /shop/client/28/ HTTP/1.1" 200 1381
+INFO 2024-05-20 04:40:31,306 basehttp 1397 6202535936"GET /shop/client/2/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:34,940 basehttp 1397 6202535936"GET /shop/client/1/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:36,433 basehttp 1397 6202535936"GET /shop/client/3/ HTTP/1.1" 200 750
+INFO 2024-05-20 04:40:45,118 basehttp 1397 6202535936"GET /shop/client/1/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:46,482 basehttp 1397 6202535936"GET /shop/client/4/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:50,280 basehttp 1397 6202535936"GET /shop/client/1/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:51,031 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:54,518 basehttp 1397 6202535936"GET /shop/client/1/ HTTP/1.1" 200 740
+INFO 2024-05-20 04:40:55,807 basehttp 1397 6202535936"GET /shop/client/6 HTTP/1.1" 301 0
+INFO 2024-05-20 04:40:55,830 basehttp 1397 6202535936"GET /shop/client/6/ HTTP/1.1" 200 2359
+INFO 2024-05-20 04:41:27,122 basehttp 1397 6202535936"GET /shop/client/6/ HTTP/1.1" 200 2359
+INFO 2024-05-20 04:41:36,009 basehttp 1397 6202535936"GET /shop/client/6/ HTTP/1.1" 200 2359
+WARNING 2024-05-20 04:41:39,532 log 1397 6202535936Not Found: /clients/
+WARNING 2024-05-20 04:41:39,533 basehttp 1397 6202535936"GET /clients/ HTTP/1.1" 404 2538
+INFO 2024-05-20 04:41:49,070 views 1397 6202535936Home page accessed
+INFO 2024-05-20 04:41:49,071 basehttp 1397 6202535936"GET / HTTP/1.1" 200 149
+INFO 2024-05-20 04:44:17,314 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 787
+INFO 2024-05-20 04:44:19,057 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 787
+INFO 2024-05-20 04:44:20,075 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 787
+INFO 2024-05-20 04:44:20,957 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 787
+INFO 2024-05-20 04:44:28,594 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 794
+INFO 2024-05-20 04:45:06,886 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 770
+INFO 2024-05-20 04:45:08,459 basehttp 1397 6202535936"GET /shop/client/5/ HTTP/1.1" 200 770
+INFO 2024-05-20 04:49:21,368 autoreload 1397 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-20 04:49:21,645 autoreload 1449 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:49:52,250 autoreload 1449 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-20 04:49:52,549 autoreload 1465 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:51:08,916 autoreload 1465 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-20 04:51:09,182 autoreload 1473 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:54:01,457 autoreload 1473 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-20 04:54:01,711 autoreload 1519 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:54:02,117 basehttp 1519 6199078912"GET /shop/client/5/ HTTP/1.1" 200 715
+ERROR 2024-05-20 04:54:38,891 log 1519 6199078912Internal Server Error: /shop/client/5/orders/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 75, in ordered_products
+    client = Client.objects.get(pk=pk)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+myshopapp.models.Client.DoesNotExist: Client matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 77, in ordered_products
+    return render(request, 'ordered_products.html', {'error': 'Клиент с данным ID не найден.'})
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ordered_products.html
+ERROR 2024-05-20 04:54:38,897 basehttp 1519 6199078912"GET /shop/client/5/orders/ HTTP/1.1" 500 93605
+INFO 2024-05-20 04:55:02,141 basehttp 1519 6199078912"GET /shop/client/5/ HTTP/1.1" 200 715
+ERROR 2024-05-20 04:56:15,228 log 1519 6199078912Internal Server Error: /shop/client/5/orders/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 75, in ordered_products
+    client = Client.objects.get(pk=pk)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+myshopapp.models.Client.DoesNotExist: Client matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 77, in ordered_products
+    return render(request, 'ordered_products.html', {'error': 'Клиент с данным ID не найден.'})
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ordered_products.html
+ERROR 2024-05-20 04:56:15,231 basehttp 1519 6199078912"GET /shop/client/5/orders/ HTTP/1.1" 500 93605
+INFO 2024-05-20 04:56:17,378 basehttp 1519 6199078912"GET /shop/client/5/ HTTP/1.1" 200 715
+INFO 2024-05-20 04:58:08,194 autoreload 1519 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-20 04:58:08,433 autoreload 1554 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 04:58:10,737 views 1554 6199209984Home page accessed
+INFO 2024-05-20 04:58:10,738 basehttp 1554 6199209984"GET / HTTP/1.1" 200 149
+INFO 2024-05-20 04:58:13,780 views 1554 6199209984Home page accessed
+INFO 2024-05-20 04:58:13,780 basehttp 1554 6199209984"GET / HTTP/1.1" 200 149
+WARNING 2024-05-20 04:58:14,341 log 1554 6199209984Not Found: /coin/
+WARNING 2024-05-20 04:58:14,342 basehttp 1554 6199209984"GET /coin/ HTTP/1.1" 404 2529
+WARNING 2024-05-20 04:58:19,476 log 1554 6199209984Not Found: /clients
+WARNING 2024-05-20 04:58:19,476 basehttp 1554 6199209984"GET /clients HTTP/1.1" 404 2535
+WARNING 2024-05-20 04:58:32,927 log 1554 6199209984Not Found: /clients/3/orderds
+WARNING 2024-05-20 04:58:32,927 basehttp 1554 6199209984"GET /clients/3/orderds HTTP/1.1" 404 2565
+INFO 2024-05-20 05:04:54,898 autoreload 1634 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 05:04:56,116 views 1634 6137376768Home page accessed
+INFO 2024-05-20 05:04:56,117 basehttp 1634 6137376768"GET / HTTP/1.1" 200 149
+INFO 2024-05-20 05:05:00,706 views 1634 6137376768Home page accessed
+INFO 2024-05-20 05:05:00,706 basehttp 1634 6137376768"GET / HTTP/1.1" 200 149
+WARNING 2024-05-20 05:05:02,054 log 1634 6137376768Not Found: /coin/
+WARNING 2024-05-20 05:05:02,055 basehttp 1634 6137376768"GET /coin/ HTTP/1.1" 404 2529
+WARNING 2024-05-20 05:05:05,867 log 1634 6137376768Not Found: /clients
+WARNING 2024-05-20 05:05:05,868 basehttp 1634 6137376768"GET /clients HTTP/1.1" 404 2535
+INFO 2024-05-20 05:05:33,747 autoreload 1634 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-20 05:05:33,987 autoreload 1644 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 05:05:35,501 views 1644 6199980032Home page accessed
+INFO 2024-05-20 05:05:35,502 basehttp 1644 6199980032"GET / HTTP/1.1" 200 149
+INFO 2024-05-20 05:05:38,591 views 1644 6199980032Home page accessed
+INFO 2024-05-20 05:05:38,592 basehttp 1644 6199980032"GET / HTTP/1.1" 200 149
+WARNING 2024-05-20 05:05:40,100 log 1644 6199980032Not Found: /coin/
+WARNING 2024-05-20 05:05:40,101 basehttp 1644 6199980032"GET /coin/ HTTP/1.1" 404 2529
+WARNING 2024-05-20 05:05:50,963 log 1644 6199980032Not Found: /clients
+WARNING 2024-05-20 05:05:50,964 basehttp 1644 6199980032"GET /clients HTTP/1.1" 404 2535
+INFO 2024-05-20 05:06:22,008 autoreload 1644 8399092416/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-20 05:06:22,258 autoreload 1656 8399092416Watching for file changes with StatReloader
+INFO 2024-05-20 05:06:23,497 views 1656 6201847808Home page accessed
+INFO 2024-05-20 05:06:23,498 basehttp 1656 6201847808"GET / HTTP/1.1" 200 149
+INFO 2024-05-20 05:06:26,266 views 1656 6201847808Home page accessed
+INFO 2024-05-20 05:06:26,267 basehttp 1656 6201847808"GET / HTTP/1.1" 200 149
+WARNING 2024-05-20 05:06:27,819 log 1656 6201847808Not Found: /coin/
+WARNING 2024-05-20 05:06:27,819 basehttp 1656 6201847808"GET /coin/ HTTP/1.1" 404 2529
+INFO 2024-05-20 05:06:39,843 basehttp 1656 6201847808"GET /shop/client/1/ HTTP/1.1" 200 715
+INFO 2024-05-20 05:06:41,101 basehttp 1656 6201847808"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-20 05:06:46,839 basehttp 1656 6201847808"GET /shop/client/1/ HTTP/1.1" 200 715
+INFO 2024-05-20 05:06:51,429 basehttp 1656 6201847808"GET /shop/clients HTTP/1.1" 301 0
+INFO 2024-05-20 05:06:51,455 basehttp 1656 6201847808"GET /shop/clients/ HTTP/1.1" 200 4572
+INFO 2024-05-20 05:06:56,345 basehttp 1656 6201847808"GET /shop/client/3/orders/ HTTP/1.1" 200 735
+INFO 2024-05-20 05:07:05,961 basehttp 1656 6201847808"GET /shop/client/16/orders/ HTTP/1.1" 200 876
+INFO 2024-05-20 05:07:09,736 basehttp 1656 6201847808"GET /shop/client/27/orders/ HTTP/1.1" 200 810
+INFO 2024-05-20 05:07:14,696 basehttp 1656 6201847808"GET /shop/client/30/orders/ HTTP/1.1" 200 810
+INFO 2024-05-20 05:07:17,333 basehttp 1656 6201847808"GET /shop/client/10/orders/ HTTP/1.1" 200 876
+INFO 2024-05-20 05:07:29,511 basehttp 1656 6201847808"GET /shop/client/26/orders/ HTTP/1.1" 200 810
+INFO 2024-05-20 05:07:41,632 basehttp 1656 6201847808"GET /shop/client/3/orders/ HTTP/1.1" 200 735
+INFO 2024-05-20 05:07:48,057 basehttp 1656 6201847808"GET /shop/client/1/orders/ HTTP/1.1" 200 285

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Orders for {{ client.name }}
+{% endblock %}
+
+{% block content %}
+
+    {% if orders %}
+        <h2>Orders for {{ client.name }}</h2>
+        <ul>
+            {% for order in orders %}
+                <li>
+                    <strong>Order ID:</strong> {{ order.id }}<br>
+                    <strong>Total Amount:</strong> {{ order.total_amount }}<br>
+                    <strong>Order Date:</strong> {{ order.order_date }}<br>
+                    <ul>
+                        {% for product in order.products.all %}
+                            <li>
+                                <strong>Product:</strong> {{ product.name }}<br>
+                                <strong>Description:</strong> {{ product.description }}<br>
+                                <strong>Price:</strong> {{ product.price }}<br>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+{% endblock %}

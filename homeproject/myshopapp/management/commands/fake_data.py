@@ -26,10 +26,10 @@ class Command(BaseCommand):
                 count=3*i,
             )
             product.save()
-            for j in range(1, count + 1):
-                order = Order(
-                    client=client,
-                    total_amount=(product.price * j)
+            order = Order(
+                client=client,
+                total_amount=(product.price * i)
             )
-                order.save()
+            order.save()
+            order.products.add(product)
 
