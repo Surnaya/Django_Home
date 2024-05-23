@@ -19,6 +19,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     count = models.IntegerField()
     added_date = models.DateTimeField(default=timezone.now)
+    img = models.ImageField(upload_to='product_images/', blank=True, null=True)
 
 
 class Order(models.Model):

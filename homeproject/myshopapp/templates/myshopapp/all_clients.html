@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Clients</title>
-</head>
-<body>
-    <h1>All Clients</h1>
+
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>All Clients</h1>
     <ul>
         {% for client in clients %}
             <li>
@@ -17,5 +13,4 @@
             <li>No clients found.</li>
         {% endfor %}
     </ul>
-</body>
-</html>
+{% endblock %}

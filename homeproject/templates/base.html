@@ -10,9 +10,10 @@
         <h1>My Shop</h1>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/clients/">Clients</a></li>
-                <!-- Добавьте ссылки на другие разделы, если нужно -->
+                <li><a href="{% url 'shop' %}">Home</a></li>
+                <li><a href="{% url 'all_clients' %}">Clients</a></li>
+                <li><a href="{% url 'add_product' %}">Add product</a></li>
+                <li><a href="{% url 'all_products' %}">Products</a></li>
             </ul>
         </nav>
     </header>

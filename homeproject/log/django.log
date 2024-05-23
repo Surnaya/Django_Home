@@ -540,3 +540,262 @@ INFO 2024-05-20 05:07:17,333 basehttp 1656 6201847808"GET /shop/client/10/orders
 INFO 2024-05-20 05:07:29,511 basehttp 1656 6201847808"GET /shop/client/26/orders/ HTTP/1.1" 200 810
 INFO 2024-05-20 05:07:41,632 basehttp 1656 6201847808"GET /shop/client/3/orders/ HTTP/1.1" 200 735
 INFO 2024-05-20 05:07:48,057 basehttp 1656 6201847808"GET /shop/client/1/orders/ HTTP/1.1" 200 285
+INFO 2024-05-23 15:41:12,119 autoreload 3779 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 15:41:13,651 views 3779 6138179584Home page accessed
+INFO 2024-05-23 15:41:13,652 basehttp 3779 6138179584"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 15:41:15,881 views 3779 6138179584Home page accessed
+INFO 2024-05-23 15:41:15,882 basehttp 3779 6138179584"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 15:41:18,449 views 3779 6138179584Home page accessed
+INFO 2024-05-23 15:41:18,449 basehttp 3779 6138179584"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 15:41:18,933 basehttp 3779 6138179584"GET /shop/ HTTP/1.1" 200 126
+ERROR 2024-05-23 15:41:32,336 log 3779 6138179584Internal Server Error: /shop/add_product
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 96, in add_product
+    return render(request, 'myblogapp/add_product.html', {'form': form, 'message': message})
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myblogapp/add_product.html
+ERROR 2024-05-23 15:41:32,339 basehttp 3779 6138179584"GET /shop/add_product HTTP/1.1" 500 77637
+INFO 2024-05-23 15:41:52,103 autoreload 3779 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-23 15:41:52,412 autoreload 3790 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 15:41:53,225 basehttp 3790 6123073536"GET /shop/add_product HTTP/1.1" 301 0
+ERROR 2024-05-23 15:41:53,258 log 3790 6123073536Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 96, in add_product
+    return render(request, 'myblogapp/add_product.html', {'form': form, 'message': message})
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myblogapp/add_product.html
+ERROR 2024-05-23 15:41:53,261 basehttp 3790 6123073536"GET /shop/add_product/ HTTP/1.1" 500 77649
+ERROR 2024-05-23 15:41:57,110 log 3790 6123073536Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 96, in add_product
+    return render(request, 'myblogapp/add_product.html', {'form': form, 'message': message})
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myblogapp/add_product.html
+ERROR 2024-05-23 15:41:57,111 basehttp 3790 6123073536"GET /shop/add_product/ HTTP/1.1" 500 77649
+INFO 2024-05-23 15:42:28,166 autoreload 3790 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 15:42:28,515 autoreload 3803 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 15:42:29,668 basehttp 3803 6167687168"GET /shop/add_product/ HTTP/1.1" 200 1772
+WARNING 2024-05-23 15:42:34,345 log 3803 6167687168Not Found: /clients/
+WARNING 2024-05-23 15:42:34,346 basehttp 3803 6167687168"GET /clients/ HTTP/1.1" 404 2538
+INFO 2024-05-23 15:42:38,655 views 3803 6167687168Home page accessed
+INFO 2024-05-23 15:42:38,656 basehttp 3803 6167687168"GET / HTTP/1.1" 200 149
+ERROR 2024-05-23 15:43:31,466 log 3803 6167687168Internal Server Error: /shop/add_product/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 92, in add_product
+    return redirect('all_products')
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'all_products' not found. 'all_products' is not a valid view function or pattern name.
+ERROR 2024-05-23 15:43:31,472 basehttp 3803 6167687168"POST /shop/add_product/ HTTP/1.1" 500 82553
+INFO 2024-05-23 15:48:36,166 autoreload 3803 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 15:48:36,461 autoreload 3871 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 15:49:29,436 autoreload 3871 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-23 15:49:29,727 autoreload 3889 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 15:49:32,562 basehttp 3889 6134525952"POST /shop/add_product/ HTTP/1.1" 302 0
+INFO 2024-05-23 15:49:34,203 basehttp 3889 6134525952"GET /shop/products/ HTTP/1.1" 200 1872
+WARNING 2024-05-23 15:49:42,622 log 3889 6134525952Not Found: /clients/
+WARNING 2024-05-23 15:49:42,623 basehttp 3889 6134525952"GET /clients/ HTTP/1.1" 404 2538
+WARNING 2024-05-23 15:50:27,956 log 3889 6134525952Not Found: /clients/
+WARNING 2024-05-23 15:50:27,958 basehttp 3889 6134525952"GET /clients/ HTTP/1.1" 404 2538
+WARNING 2024-05-23 15:51:24,684 log 3889 6134525952Not Found: /clients/
+WARNING 2024-05-23 15:51:24,686 basehttp 3889 6134525952"GET /clients/ HTTP/1.1" 404 2538
+WARNING 2024-05-23 15:56:29,134 log 3889 6134525952Not Found: /clients/
+WARNING 2024-05-23 15:56:29,136 basehttp 3889 6134525952"GET /clients/ HTTP/1.1" 404 2538
+WARNING 2024-05-23 16:00:18,781 log 3889 6134525952Not Found: /clients/
+WARNING 2024-05-23 16:00:18,783 basehttp 3889 6134525952"GET /clients/ HTTP/1.1" 404 2538
+INFO 2024-05-23 16:00:29,016 autoreload 3962 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:00:30,345 views 3962 6188806144Home page accessed
+INFO 2024-05-23 16:00:30,346 basehttp 3962 6188806144"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 16:00:35,883 views 3962 6188806144Home page accessed
+INFO 2024-05-23 16:00:35,884 basehttp 3962 6188806144"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 16:00:37,214 basehttp 3962 6188806144"GET /shop/ HTTP/1.1" 200 126
+INFO 2024-05-23 16:03:46,317 autoreload 3962 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:03:46,664 autoreload 4009 8519645888Watching for file changes with StatReloader
+ERROR 2024-05-23 16:03:48,079 log 4009 6124924928Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 13, in shop
+    return render(request, 'myshoppapp/shop_main.html')
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myshoppapp/shop_main.html
+ERROR 2024-05-23 16:03:48,083 basehttp 4009 6124924928"GET /shop/ HTTP/1.1" 500 77353
+INFO 2024-05-23 16:04:05,194 autoreload 4009 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:04:05,476 autoreload 4023 8519645888Watching for file changes with StatReloader
+ERROR 2024-05-23 16:04:05,934 log 4023 6138261504Internal Server Error: /shop/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py", line 13, in shop
+    return render(request, 'myshopapp/shop_main.html')
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_client' not found. 'create_client' is not a valid view function or pattern name.
+ERROR 2024-05-23 16:04:05,941 basehttp 4023 6138261504"GET /shop/ HTTP/1.1" 500 135892
+INFO 2024-05-23 16:05:29,433 autoreload 4032 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:05:34,413 basehttp 4032 6171799552"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:05:35,231 views 4032 6171799552Home page accessed
+INFO 2024-05-23 16:05:35,231 basehttp 4032 6171799552"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 16:06:18,810 views 4032 6171799552Home page accessed
+INFO 2024-05-23 16:06:18,812 basehttp 4032 6171799552"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 16:06:20,007 basehttp 4032 6171799552"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:06:30,137 basehttp 4032 6171799552"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:06:31,664 basehttp 4032 6171799552"GET /shop/clients/ HTTP/1.1" 200 4572
+INFO 2024-05-23 16:06:34,450 basehttp 4032 6171799552"GET /shop/client/3/orders/ HTTP/1.1" 200 735
+INFO 2024-05-23 16:06:38,835 basehttp 4032 6171799552"GET /shop/add_product/ HTTP/1.1" 200 1807
+INFO 2024-05-23 16:06:41,809 basehttp 4032 6171799552"GET /shop/products/ HTTP/1.1" 200 1907
+INFO 2024-05-23 16:06:50,436 basehttp 4032 6171799552"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:09:09,452 autoreload 4032 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:09:09,746 autoreload 4076 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:10:07,901 autoreload 4076 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:10:08,201 autoreload 4086 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:13:18,234 autoreload 4086 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:13:18,558 autoreload 4123 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:16:29,691 autoreload 4123 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-23 16:16:30,041 autoreload 4151 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:16:43,961 basehttp 4151 6194704384"GET /shop/ HTTP/1.1" 200 864
+ERROR 2024-05-23 16:16:46,107 log 4151 6194704384Internal Server Error: /shop/edit_product/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: edit_product() missing 1 required positional argument: 'pk'
+ERROR 2024-05-23 16:16:46,108 basehttp 4151 6194704384"GET /shop/edit_product/ HTTP/1.1" 500 59178
+ERROR 2024-05-23 16:18:50,182 log 4151 6194704384Internal Server Error: /shop/edit_product/
+Traceback (most recent call last):
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/.venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: edit_product() missing 1 required positional argument: 'pk'
+ERROR 2024-05-23 16:18:50,182 basehttp 4151 6194704384"GET /shop/edit_product/ HTTP/1.1" 500 59178
+INFO 2024-05-23 16:21:36,242 autoreload 4151 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/urls.py changed, reloading.
+INFO 2024-05-23 16:21:36,549 autoreload 4204 8519645888Watching for file changes with StatReloader
+WARNING 2024-05-23 16:21:37,266 log 4204 6197325824Not Found: /shop/edit_product/
+WARNING 2024-05-23 16:21:37,267 basehttp 4204 6197325824"GET /shop/edit_product/ HTTP/1.1" 404 4185
+WARNING 2024-05-23 16:21:41,506 log 4204 6197325824Not Found: /shop/edit_product/
+WARNING 2024-05-23 16:21:41,506 basehttp 4204 6197325824"GET /shop/edit_product/ HTTP/1.1" 404 4185
+WARNING 2024-05-23 16:21:51,888 log 4204 6197325824Not Found: /shop/edit_product/
+WARNING 2024-05-23 16:21:51,889 basehttp 4204 6197325824"GET /shop/edit_product/ HTTP/1.1" 404 4185
+INFO 2024-05-23 16:24:20,310 autoreload 4204 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:24:20,602 autoreload 4233 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:25:13,504 autoreload 4233 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:25:13,801 autoreload 4252 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:26:11,706 basehttp 4252 6135623680"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:26:13,014 basehttp 4252 6135623680"GET /shop/products/ HTTP/1.1" 200 4175
+INFO 2024-05-23 16:26:14,499 basehttp 4252 6135623680"GET /shop/products/1/edit/ HTTP/1.1" 200 1951
+INFO 2024-05-23 16:28:01,868 autoreload 4252 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-23 16:28:02,202 autoreload 4285 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:30:23,976 autoreload 4285 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-23 16:30:24,278 autoreload 4296 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:30:48,762 autoreload 4296 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/forms.py changed, reloading.
+INFO 2024-05-23 16:30:49,045 autoreload 4310 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:31:27,776 autoreload 4310 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/homeproject/settings.py changed, reloading.
+INFO 2024-05-23 16:31:28,064 autoreload 4330 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:32:08,852 autoreload 4330 8519645888/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/views.py changed, reloading.
+INFO 2024-05-23 16:32:09,130 autoreload 4349 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:34:55,993 autoreload 4410 8519645888Watching for file changes with StatReloader
+INFO 2024-05-23 16:34:57,798 views 4410 6201946112Home page accessed
+INFO 2024-05-23 16:34:57,799 basehttp 4410 6201946112"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 16:35:03,423 views 4410 6201946112Home page accessed
+INFO 2024-05-23 16:35:03,424 basehttp 4410 6201946112"GET / HTTP/1.1" 200 149
+INFO 2024-05-23 16:35:04,560 basehttp 4410 6201946112"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:35:06,962 basehttp 4410 6201946112"GET /shop/add_product/ HTTP/1.1" 200 1935
+INFO 2024-05-23 16:37:23,120 basehttp 4410 6201946112"GET /shop/products/ HTTP/1.1" 200 4175
+INFO 2024-05-23 16:37:30,932 basehttp 4410 6201946112"GET /shop/products/1/edit/ HTTP/1.1" 200 2109
+INFO 2024-05-23 16:41:06,727 basehttp 4410 6201946112"POST /shop/products/1/edit/ HTTP/1.1" 302 0
+INFO 2024-05-23 16:41:06,747 basehttp 4410 6201946112"GET /shop/products/ HTTP/1.1" 200 4307
+INFO 2024-05-23 16:41:14,638 basehttp 4410 6201946112"GET /shop/products/2/edit/ HTTP/1.1" 200 2109
+INFO 2024-05-23 16:41:30,539 basehttp 4410 6201946112"POST /shop/products/2/edit/ HTTP/1.1" 302 0
+INFO 2024-05-23 16:41:30,555 basehttp 4410 6201946112"GET /shop/products/ HTTP/1.1" 200 4307
+INFO 2024-05-23 16:42:14,482 basehttp 4410 6201946112"GET /shop/ HTTP/1.1" 200 792
+INFO 2024-05-23 16:42:15,223 basehttp 4410 6201946112"GET /shop/clients/ HTTP/1.1" 200 4572
+INFO 2024-05-23 16:42:21,835 basehttp 4410 6201946112"GET /shop/clients/ HTTP/1.1" 200 4572
+INFO 2024-05-23 16:42:24,835 basehttp 4410 6201946112"GET /shop/add_product/ HTTP/1.1" 200 1935
+INFO 2024-05-23 16:42:26,202 basehttp 4410 6201946112"GET /shop/products/ HTTP/1.1" 200 4307
+INFO 2024-05-23 16:42:27,211 basehttp 4410 6201946112"GET /shop/clients/ HTTP/1.1" 200 4572
+INFO 2024-05-23 16:43:43,958 basehttp 4410 6201946112"GET /shop/clients/ HTTP/1.1" 200 5040
+INFO 2024-05-23 16:43:48,032 basehttp 4410 6201946112"GET /shop/clients/ HTTP/1.1" 200 5040
+INFO 2024-05-23 16:43:49,001 basehttp 4410 6201946112"GET /shop/add_product/ HTTP/1.1" 200 1935
+INFO 2024-05-23 16:43:49,733 basehttp 4410 6201946112"GET /shop/products/ HTTP/1.1" 200 4307
+INFO 2024-05-23 16:43:52,538 basehttp 4410 6201946112"GET /shop/products/1/edit/ HTTP/1.1" 200 2358
+INFO 2024-05-23 16:44:00,969 basehttp 4410 6201946112"GET /shop/products/3/edit/ HTTP/1.1" 200 2109
+INFO 2024-05-23 16:44:07,069 basehttp 4410 6201946112"POST /shop/products/3/edit/ HTTP/1.1" 302 0
+INFO 2024-05-23 16:44:07,083 basehttp 4410 6201946112"GET /shop/products/ HTTP/1.1" 200 4307
