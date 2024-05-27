@@ -10,7 +10,7 @@ class Client(models.Model):
     registration_date = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return f'Client name: {self.name}, email: {self.email}, phone: {self.phone_number}, address: {self.address}, registration_date: {self.registration_date}'
+        return self.name
 
 
 class Product(models.Model):
@@ -20,6 +20,9 @@ class Product(models.Model):
     count = models.IntegerField()
     added_date = models.DateTimeField(default=timezone.now)
     img = models.ImageField(upload_to='product_images/', blank=True, null=True)
+
+    def __str__(self):
+        return self.name
 
 
 class Order(models.Model):
