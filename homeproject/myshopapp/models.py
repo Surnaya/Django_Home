@@ -30,3 +30,6 @@ class Order(models.Model):
     products = models.ManyToManyField(Product)
     total_amount = models.DecimalField(max_digits=10, decimal_places=2)
     order_date = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return f"Order #{self.id} by {self.client.name}"

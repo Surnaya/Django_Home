@@ -1291,3 +1291,7 @@ INFO 2024-05-27 06:07:05,418 basehttp 2124 6128988160"GET /admin/myshopapp/order
 INFO 2024-05-27 06:07:05,427 basehttp 2124 6128988160"GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2024-05-27 06:07:07,806 basehttp 2124 6128988160"GET /admin/myshopapp/order/79/change/?_changelist_filters=q%3D HTTP/1.1" 200 13897
 INFO 2024-05-27 06:07:07,819 basehttp 2124 6128988160"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-05-27 06:10:28,133 autoreload 2124 8714844864/Users/surnaya.m/Desktop/Geek/Django/project-django/DjangoHW/homeproject/myshopapp/models.py changed, reloading.
+INFO 2024-05-27 06:10:28,459 autoreload 2257 8714844864Watching for file changes with StatReloader
+INFO 2024-05-27 06:10:31,779 basehttp 2257 6201602048"GET /admin/myshopapp/order/79/change/?_changelist_filters=q%3D HTTP/1.1" 200 13903
+INFO 2024-05-27 06:10:31,792 basehttp 2257 6201602048"GET /admin/jsi18n/ HTTP/1.1" 200 16066
